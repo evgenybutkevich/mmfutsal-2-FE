@@ -98,9 +98,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "mmfutsal-2.0-FE"
+  "defaultProject": "mmfutsal-2.0-FE",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
