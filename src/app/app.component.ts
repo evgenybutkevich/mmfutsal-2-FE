@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'mmfutsal-2.0-FE';
+  title = 'mmfutsal-2-FE';
 }
